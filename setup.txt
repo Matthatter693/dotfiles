@@ -1,0 +1,1 @@
+For fedora the cmddline option pcie_aspm=off needs to be set for the sleep and other functionalities to work
