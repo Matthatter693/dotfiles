@@ -6,7 +6,7 @@ set hlsearch
 
 let g:airline#extensions#tabline#enabled = 1
 let g:ale_cpp_cc_options = '-std=c++23 -Wall'
-let g:ale_enabled = 1
+" let g:ale_enabled = 1
 
 let g:ale_linters = {
 \   'C': ['clangcheck'],
