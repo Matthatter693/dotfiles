@@ -1,1 +1,8 @@
 For fedora the cmddline option pcie_aspm=off needs to be set for the sleep and other functionalities to work
+
+Fix for the ROG control centre not launching:
+Open terminal
+sudo nano /usr/share/asusd/aura_support.ron
+Almost at the end of the file there are two entries for the GZ301Z. Delete only the one that does not have a layout name. Leave the other one, that has a layout name, just like it is.
+Save and exit with Ctrl+X → Y → Enter
+
